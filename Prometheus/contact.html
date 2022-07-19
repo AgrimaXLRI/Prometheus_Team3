@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Prometheus Sign Up Form</title>
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+
+<div class="container">
+<div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="https://lh3.googleusercontent.com/a-/AFdZucpsLIxZvuRtJXjmfY6-pAbq0MB2QwW75zI5XWgW=s96-p-k-rw-no" alt="" width="130" height="130">
+        <h2>Prometheus Sign Up Form</h2>
+      </div>
+<fieldset>
+  
+  <form name="frmContact" class="needs-validation " method="post" action="contact.php">
+    <p>
+      <label for="Name">Name </label>
+      <input type="text" class="form-control" name="txtName" id="txtName" placeholder="Name" value="" required>
+	  <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+    </p>
+    <p>
+      <label for="email">Astra Email</label>
+      <input type="text"  class="form-control"  name="txtEmail" id="txtEmail" placeholder="Email" value="" required>
+    </p>
+    <p>
+      <label for="phone">Contact Number</label>
+      <input type="text"  class="form-control" name="txtPhone" id="txtPhone" placeholder="Phone" value="" required>
+    </p>
+    <p>
+      <label for="message">SOP</label>
+      <textarea name="txtMessage" class="form-control"  id="txtMessage"  placeholder="Message" required></textarea>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+      <input type="submit" name="Submit" id="Submit" value="Sign Up"  class="btn btn-primary btn-lg btn-block">
+    </p>
+  </form>
+  <form name="frmContact" class="needs-validation " method="get" action="table2.php">
+    <p>
+      <input type="submit" name="viewallusers" id="viewallusers" value="View All Users"  class="btn btn-primary btn-lg btn-block">
+    </p>
+  </form>
+</fieldset>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
